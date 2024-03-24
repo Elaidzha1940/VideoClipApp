@@ -12,6 +12,7 @@
 		E49ED65F2BB05C4000FAB698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49ED65E2BB05C4000FAB698 /* Assets.xcassets */; };
 		E49ED6622BB05C4000FAB698 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49ED6612BB05C4000FAB698 /* Preview Assets.xcassets */; };
 		E49ED66A2BB0682C00FAB698 /* QueryTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49ED6692BB0682C00FAB698 /* QueryTag.swift */; };
+		E49ED66C2BB069ED00FAB698 /* VideoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49ED66B2BB069ED00FAB698 /* VideoManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		E49ED65E2BB05C4000FAB698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E49ED6612BB05C4000FAB698 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E49ED6692BB0682C00FAB698 /* QueryTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryTag.swift; sourceTree = "<group>"; };
+		E49ED66B2BB069ED00FAB698 /* VideoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +56,11 @@
 			isa = PBXGroup;
 			children = (
 				E49ED65A2BB05C3F00FAB698 /* VideoClipApp.swift */,
-				E49ED65C2BB05C3F00FAB698 /* ContentView.swift */,
+				E49ED66D2BB06BD000FAB698 /* Views */,
 				E49ED6682BB0680F00FAB698 /* Components */,
 				E49ED65E2BB05C4000FAB698 /* Assets.xcassets */,
 				E49ED6602BB05C4000FAB698 /* Preview Content */,
+				E49ED66B2BB069ED00FAB698 /* VideoManager.swift */,
 			);
 			path = VideoClip;
 			sourceTree = "<group>";
@@ -76,6 +79,14 @@
 				E49ED6692BB0682C00FAB698 /* QueryTag.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		E49ED66D2BB06BD000FAB698 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E49ED65C2BB05C3F00FAB698 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 				E49ED65D2BB05C3F00FAB698 /* ContentView.swift in Sources */,
 				E49ED66A2BB0682C00FAB698 /* QueryTag.swift in Sources */,
 				E49ED65B2BB05C3F00FAB698 /* VideoClipApp.swift in Sources */,
+				E49ED66C2BB069ED00FAB698 /* VideoManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

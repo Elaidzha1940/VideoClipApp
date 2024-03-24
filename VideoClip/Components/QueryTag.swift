@@ -10,21 +10,21 @@
 import SwiftUI
 
 struct QueryTag: View {
-    var query: String
+    var query: Query
     var isSelected: Bool
     
     var body: some View {
         VStack {
-            Text(query)
+            Text(query.rawValue)
                 .font(.system(size: 16, weight: .bold, design: .rounded))
                 .foregroundStyle(isSelected ? .black : .gray)
                 .padding(10)
-                .background(.thinMaterial)
+                .background(.ultraThickMaterial)
                 .cornerRadius(15)
         }
     }
 }
 
 #Preview {
-    QueryTag(query: "Nature", isSelected: true)
+    QueryTag(query: Query.animals, isSelected: true)
 }
