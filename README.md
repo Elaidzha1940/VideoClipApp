@@ -11,7 +11,7 @@ Build a video-based application with the AVKit framework and the Pexels API.
 
 ----------
 
-VideoModelData
+ModelData
 ===============
 
 ````ruby
