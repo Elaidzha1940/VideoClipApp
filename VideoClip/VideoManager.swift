@@ -7,7 +7,7 @@
 //
 //  */
 
-import Foundation
+import SwiftUI
 
 enum Query: String, CaseIterable {
     case people, nature, animals, food, ocean
@@ -29,13 +29,9 @@ class VideoManager: ObservableObject {
         }
     }
     
-
-//    dbiX7zmySlFVho5kQOXzTPEKHcLtlkSW6MqARHLZGLuMpIOaHzw81scD
-//https://api.pexels.com/videos/search?query=\(topic)&per_page=10&orientation=portrait
-    
     func findVideos(topic: Query) async {
         do {
-            guard let url = URL(string: "https://api.pexels.com/videos/search?query=nature&per_page=1") else { fatalError("Missing URL") }
+            guard let url = URL(string: "https://api.pexels.com/videos/search?query=\(topic)&per_page=10&orientation=portrait") else { fatalError("Missing URL") }
             var urlRequest = URLRequest(url: url)
             urlRequest.setValue("dbiX7zmySlFVho5kQOXzTPEKHcLtlkSW6MqARHLZGLuMpIOaHzw81scD", forHTTPHeaderField: "Authorization")
             

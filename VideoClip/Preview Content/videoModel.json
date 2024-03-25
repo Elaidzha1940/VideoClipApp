@@ -1,0 +1,70 @@
+
+{
+    "id": 3571264,
+    "duration": 32,
+    "url": "https://www.pexels.com/video/drone-view-of-big-waves-rushing-to-the-shore-3571264/",
+    "image": "https://images.pexels.com/videos/3571264/free-video-3571264.jpg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+    "user": {
+        "id": 1498112,
+        "name": "Enrique Hoyos",
+        "url": "https://www.pexels.com/@enrique"
+    },
+    "video_files": [
+        {
+            "id": 9326316,
+            "quality": "uhd",
+            "file_type": "video/mp4",
+            "width": 2560,
+            "height": 1440,
+            "link": "https://videos.pexels.com/video-files/3571264/uhd_30fps.mp4"
+        },
+        {
+            "id": 9326361,
+            "quality": "sd",
+            "file_type": "video/mp4",
+            "width": 640,
+            "height": 360,
+            "link": "https://videos.pexels.com/video-files/3571264/sd_30fps.mp4"
+        },
+        {
+            "id": 9326423,
+            "quality": "sd",
+            "file_type": "video/mp4",
+            "width": 960,
+            "height": 540,
+            "link": "https://videos.pexels.com/video-files/3571264/sd_30fps.mp4"
+        },
+        {
+            "id": 9326528,
+            "quality": "uhd",
+            "file_type": "video/mp4",
+            "width": 3840,
+            "height": 2160,
+            "link": "https://videos.pexels.com/video-files/3571264/uhd_30fps.mp4"
+        },
+        {
+            "id": 9326609,
+            "quality": "sd",
+            "file_type": "video/mp4",
+            "width": 426,
+            "height": 240,
+            "link": "https://videos.pexels.com/video-files/3571264/sd_30fps.mp4"
+        },
+        {
+            "id": 9326703,
+            "quality": "hd",
+            "file_type": "video/mp4",
+            "width": 1280,
+            "height": 720,
+            "link": "https://videos.pexels.com/video-files/3571264/hd_30fps.mp4"
+        },
+        {
+            "id": 9326816,
+            "quality": "hd",
+            "file_type": "video/mp4",
+            "width": 1920,
+            "height": 1080,
+            "link": "https://videos.pexels.com/video-files/3571264/hd_30fps.mp4"
+        }
+    ],
+}

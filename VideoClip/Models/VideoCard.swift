@@ -28,7 +28,7 @@ struct VideoCard: View {
                         .cornerRadius(30)
                 }
                 
-                VStack(alignment: .leading, spacing: -3) {
+                VStack(alignment: .leading, spacing: 30) {
                     Text("\(video.duration) sec")
                         .font(.system(size: 11, weight: .bold, design: .rounded))
                     
