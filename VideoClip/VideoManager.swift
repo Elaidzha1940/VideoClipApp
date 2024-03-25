@@ -29,11 +29,15 @@ class VideoManager: ObservableObject {
         }
     }
     
+
+//    dbiX7zmySlFVho5kQOXzTPEKHcLtlkSW6MqARHLZGLuMpIOaHzw81scD
+//https://api.pexels.com/videos/search?query=\(topic)&per_page=10&orientation=portrait
+    
     func findVideos(topic: Query) async {
         do {
-            guard let url = URL(string: "https://api.pexels.com/videos/search?query=\(topic)&per_page=10&orientation=portrait") else { fatalError("Missing URL") }
+            guard let url = URL(string: "https://api.pexels.com/videos/search?query=nature&per_page=1") else { fatalError("Missing URL") }
             var urlRequest = URLRequest(url: url)
-            urlRequest.setValue("https://www.pexels.com/api/new/", forHTTPHeaderField: "Authorization")
+            urlRequest.setValue("dbiX7zmySlFVho5kQOXzTPEKHcLtlkSW6MqARHLZGLuMpIOaHzw81scD", forHTTPHeaderField: "Authorization")
             
             let (data, response) = try await URLSession.shared.data(for: urlRequest)
             
@@ -43,9 +47,10 @@ class VideoManager: ObservableObject {
             decoder.keyDecodingStrategy = .convertFromSnakeCase
             let decodedData = try decoder.decode(ResponseBody.self, from: data)
             
-            self.videos = []
-            self.videos = decodedData.videos
-            
+            DispatchQueue.main.async {
+                self.videos = []
+                self.videos = decodedData.videos
+            }
         } catch {
             print("Error fetching data from Pexels: \(error)")
         }
