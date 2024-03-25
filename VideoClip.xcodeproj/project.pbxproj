@@ -58,11 +58,11 @@
 			isa = PBXGroup;
 			children = (
 				E49ED65A2BB05C3F00FAB698 /* VideoClipApp.swift */,
+				E49ED66B2BB069ED00FAB698 /* VideoManager.swift */,
 				E49ED66D2BB06BD000FAB698 /* Views */,
 				E49ED6682BB0680F00FAB698 /* Components */,
 				E49ED65E2BB05C4000FAB698 /* Assets.xcassets */,
 				E49ED6602BB05C4000FAB698 /* Preview Content */,
-				E49ED66B2BB069ED00FAB698 /* VideoManager.swift */,
 			);
 			path = VideoClip;
 			sourceTree = "<group>";
