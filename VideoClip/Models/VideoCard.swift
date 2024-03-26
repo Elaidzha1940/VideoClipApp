@@ -19,16 +19,16 @@ struct VideoCard: View {
                     image
                         .resizable()
                         .aspectRatio(contentMode: .fill)
-                        .frame(width: 160, height: 250)
+                        .frame(width: 180, height: 270)
                         .cornerRadius(30)
                 } placeholder: {
                     Rectangle()
                         .foregroundStyle(.gray.opacity(0.3))
-                        .frame(width: 160, height: 250)
+                        .frame(width: 180, height: 270)
                         .cornerRadius(30)
                 }
                 
-                VStack(alignment: .leading, spacing: 30) {
+                VStack(alignment: .leading, spacing: -3) {
                     Text("\(video.duration) sec")
                         .font(.system(size: 11, weight: .bold, design: .rounded))
                     

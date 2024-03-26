@@ -30,10 +30,10 @@ struct ContentView: View {
                     if videoManager.videos.isEmpty {
                         ProgressView()
                     } else {
-                        LazyVGrid(columns: columns, spacing: 20) {
+                        LazyVGrid(columns: columns, spacing: 10) {
                             ForEach(videoManager.videos, id: \.id) { video in
                                 NavigationLink {
-                                    VideoCard(video: video)
+                                    VideoView(video: video)
                                 } label: {
                                     VideoCard(video: video)
                                 }
@@ -45,6 +45,7 @@ struct ContentView: View {
                 .frame(maxWidth: .infinity)
             }
             .background(Color("AccentColor"))
+            //.navigationBarHidden(true)
             .navigationTitle("Videos")
         }
     }

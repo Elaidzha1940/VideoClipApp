@@ -64,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				E49ED65A2BB05C3F00FAB698 /* VideoClipApp.swift */,
-				E49ED66B2BB069ED00FAB698 /* VideoManager.swift */,
 				E49ED66D2BB06BD000FAB698 /* Views */,
 				E4B3E9312BB1D81E00B1E200 /* Models */,
 				E49ED6682BB0680F00FAB698 /* Components */,
@@ -103,6 +102,7 @@
 		E4B3E9312BB1D81E00B1E200 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E49ED66B2BB069ED00FAB698 /* VideoManager.swift */,
 				E49ED66E2BB06E0A00FAB698 /* VideoCard.swift */,
 				E4B3E92F2BB1D4F700B1E200 /* VideoModel.swift */,
 			);

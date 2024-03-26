@@ -7,7 +7,7 @@
 //
 //  */
 
-import Foundation
+import SwiftUI
 
 // An enumeration of the tags query our app offers
 enum Query: String, CaseIterable {
