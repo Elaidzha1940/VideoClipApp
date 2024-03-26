@@ -26,5 +26,5 @@ struct QueryTag: View {
 }
 
 #Preview {
-    QueryTag(query: Query.animals, isSelected: true)
+    QueryTag(query: Query.people, isSelected: true)
 }

@@ -11,12 +11,12 @@ import SwiftUI
 
 // An enumeration of the tags query our app offers
 enum Query: String, CaseIterable {
-    case nature, animals, people, ocean, food
+    case people, ocean, animals, nature, food
 }
 
 class VideoManager: ObservableObject {
     @Published private(set) var videos: [Video] = []
-    @Published var selectedQuery: Query = Query.nature {
+    @Published var selectedQuery: Query = Query.people {
         // Once the selectedQuery variable is set, we'll call the API again
         didSet {
             Task.init {

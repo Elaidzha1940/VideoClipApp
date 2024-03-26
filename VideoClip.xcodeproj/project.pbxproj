@@ -44,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E4696EA92BB258CF00E4EC11 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E49ED65E2BB05C4000FAB698 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		E49ED64E2BB05C3F00FAB698 = {
 			isa = PBXGroup;
 			children = (
@@ -67,7 +75,7 @@
 				E49ED66D2BB06BD000FAB698 /* Views */,
 				E4B3E9312BB1D81E00B1E200 /* Models */,
 				E49ED6682BB0680F00FAB698 /* Components */,
-				E49ED65E2BB05C4000FAB698 /* Assets.xcassets */,
+				E4696EA92BB258CF00E4EC11 /* Resources */,
 				E49ED6602BB05C4000FAB698 /* Preview Content */,
 			);
 			path = VideoClip;

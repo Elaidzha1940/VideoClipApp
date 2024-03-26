@@ -11,7 +11,7 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject var videoManager = VideoManager()
-    var columns = [GridItem(.adaptive(minimum: 160), spacing: 20)]
+    var columns = [GridItem(.adaptive(minimum: 160), spacing: 15)]
     
     var body: some View {
         NavigationStack {
@@ -30,7 +30,7 @@ struct ContentView: View {
                     if videoManager.videos.isEmpty {
                         ProgressView()
                     } else {
-                        LazyVGrid(columns: columns, spacing: 10) {
+                        LazyVGrid(columns: columns, spacing: 15) {
                             ForEach(videoManager.videos, id: \.id) { video in
                                 NavigationLink {
                                     VideoView(video: video)
@@ -45,7 +45,6 @@ struct ContentView: View {
                 .frame(maxWidth: .infinity)
             }
             .background(Color("AccentColor"))
-            //.navigationBarHidden(true)
             .navigationTitle("Videos")
         }
     }
