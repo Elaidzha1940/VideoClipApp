@@ -20,6 +20,7 @@ struct ContentView: View {
                     ForEach(Query.allCases, id: \.self) { searchQuery in
                         QueryTag(query: searchQuery, isSelected: videoManager.selectedQuery == searchQuery)
                             .onTapGesture {
+                                // When the user taps on a QueryTag, we'll change the selectedQuery from VideoManager
                                 videoManager.selectedQuery = searchQuery
                             }
                     }

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E4920CB82BB23F93009FCBC2 /* videoModel.json in Resources */ = {isa = PBXBuildFile; fileRef = E4920CB72BB23F93009FCBC2 /* videoModel.json */; };
+		E4920CB82BB23F93009FCBC2 /* videoData.json in Resources */ = {isa = PBXBuildFile; fileRef = E4920CB72BB23F93009FCBC2 /* videoData.json */; };
 		E49ED65B2BB05C3F00FAB698 /* VideoClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49ED65A2BB05C3F00FAB698 /* VideoClipApp.swift */; };
 		E49ED65D2BB05C3F00FAB698 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49ED65C2BB05C3F00FAB698 /* ContentView.swift */; };
 		E49ED65F2BB05C4000FAB698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49ED65E2BB05C4000FAB698 /* Assets.xcassets */; };
@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E4920CB72BB23F93009FCBC2 /* videoModel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videoModel.json; sourceTree = "<group>"; };
+		E4920CB72BB23F93009FCBC2 /* videoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videoData.json; sourceTree = "<group>"; };
 		E49ED6572BB05C3F00FAB698 /* VideoClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49ED65A2BB05C3F00FAB698 /* VideoClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoClipApp.swift; sourceTree = "<group>"; };
 		E49ED65C2BB05C3F00FAB698 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 		E49ED6602BB05C4000FAB698 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				E4920CB72BB23F93009FCBC2 /* videoModel.json */,
+				E4920CB72BB23F93009FCBC2 /* videoData.json */,
 				E49ED6612BB05C4000FAB698 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -169,7 +169,7 @@
 			files = (
 				E49ED6622BB05C4000FAB698 /* Preview Assets.xcassets in Resources */,
 				E49ED65F2BB05C4000FAB698 /* Assets.xcassets in Resources */,
-				E4920CB82BB23F93009FCBC2 /* videoModel.json in Resources */,
+				E4920CB82BB23F93009FCBC2 /* videoData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,7 +245,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -302,7 +302,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
