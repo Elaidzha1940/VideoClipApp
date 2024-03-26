@@ -3,6 +3,7 @@ VideoClipApp.
 
 Build a video-based application with the AVKit framework and the Pexels API.
 -----------
+- Build Welcome UI / Splash Screen
 - Code the different components and views
 - Add dummy JSON data
 - Convert JSON data into a custom SwiftUI model
