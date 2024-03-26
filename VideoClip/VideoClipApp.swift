@@ -13,7 +13,7 @@ import SwiftUI
 struct VideoClipApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreen()
         }
     }
 }
