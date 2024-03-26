@@ -19,12 +19,12 @@ struct VideoView: View {
         VStack {
             VideoPlayer(player: player)
                 .onAppear {
-                    // Unwrapping optional
+                    // MARK: - Unwrapping optional
                     if let link = video.videoFiles.first?.link {
                         // Setting the URL of the video file
                         player = AVPlayer(url: URL(string: link)!)
                         
-                        // Play the video
+                        // MARK: - Play the video
                         player.play()
                     }
                 }
