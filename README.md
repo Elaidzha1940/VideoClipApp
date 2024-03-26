@@ -12,6 +12,10 @@ Build a video-based application with the AVKit framework and the Pexels API.
 
 ----------
 
+https://github.com/Elaidzha1940/VideoClipApp/assets/64445918/636988bc-ce89-42c7-8b3f-cc8118912175
+
+----------
+
 ModelData
 ===============
 
